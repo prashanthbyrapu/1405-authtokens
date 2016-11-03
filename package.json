@@ -1,0 +1,30 @@
+{
+  "name": "1405-authtokens",
+  "version": "1.0.1",
+  "description": "Authentication Service",
+  "author": "Prashanth Byrapu < prashanth.byrapu@gmail.com>",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "test": "vows --spec --isolate",
+    "start": "node lib/index.js"
+  },
+  "main": "lib/app.js",
+  "dependencies": {
+    "jsonwebtoken": "latest",
+    "express": "4.2.x",
+    "mongodb": "2.2",
+    "mongoose": "^4.6.5"
+  },
+  "devDependencies": {
+    "assume": "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "pre-commit": "*",
+    "vows": "^0.7.0"
+  }
+}
