@@ -1,6 +1,6 @@
 {
   "name": "1405-authtokens",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Authentication Service",
   "author": "Prashanth Byrapu < prashanth.byrapu@gmail.com>",
   "babel": {
